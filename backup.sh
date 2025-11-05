@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
-    echo "Please run script with: $0 <source_directory> <server_count>"
+    echo "Please run script with: $0 <server_count> <source_directory>"
     echo "Example: $0 3 /var/log"
     exit 1
 fi
