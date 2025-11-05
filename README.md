@@ -20,3 +20,10 @@
 * CA certificates should be stored inside /opt/ssl/ca
 * Only list down the CAs available inside the directory
 * Key must have same name as cert
+
+### check_ssl_expiry.sh
+* Created for checking expiry dates of SSL certs
+* Do not need to remember OpenSSL command as the parameters can be confusing
+* List out the certs available inside /opt/ssl/certs
+* Can view expiry dates and calculates remaining days
+* Do not need to find the expiry from the large output of cert info
